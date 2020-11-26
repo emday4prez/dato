@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 import Home from "./pages";
-import SigninPage from "./pages/singin";
+import SigninPage from "./pages/signIn";
 
 function App() {
   return (
