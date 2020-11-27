@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dato/static/css/main.61d0a6bd.chunk.css",
+    "main.js": "/dato/static/js/main.91b57b16.chunk.js",
+    "main.js.map": "/dato/static/js/main.91b57b16.chunk.js.map",
+    "runtime-main.js": "/dato/static/js/runtime-main.1db99492.js",
+    "runtime-main.js.map": "/dato/static/js/runtime-main.1db99492.js.map",
+    "static/js/2.e9c31a1e.chunk.js": "/dato/static/js/2.e9c31a1e.chunk.js",
+    "static/js/2.e9c31a1e.chunk.js.map": "/dato/static/js/2.e9c31a1e.chunk.js.map",
+    "index.html": "/dato/index.html",
+    "static/css/main.61d0a6bd.chunk.css.map": "/dato/static/css/main.61d0a6bd.chunk.css.map",
+    "static/js/2.e9c31a1e.chunk.js.LICENSE.txt": "/dato/static/js/2.e9c31a1e.chunk.js.LICENSE.txt",
+    "static/media/Chatting.c9ae2a64.svg": "/dato/static/media/Chatting.c9ae2a64.svg",
+    "static/media/Private.b811802a.svg": "/dato/static/media/Private.b811802a.svg",
+    "static/media/plan.70798898.svg": "/dato/static/media/plan.70798898.svg",
+    "static/media/video.85d7bb38.mp4": "/dato/static/media/video.85d7bb38.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1db99492.js",
+    "static/js/2.e9c31a1e.chunk.js",
+    "static/css/main.61d0a6bd.chunk.css",
+    "static/js/main.91b57b16.chunk.js"
+  ]
+}
