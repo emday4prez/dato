@@ -13,17 +13,18 @@ import {
   FormInput,
   Text,
   FormButton
-} from "./SigninElements";
+} from "./SignupElements";
 
 const Signin = ({ history }) => {
-  const handleLogin = useCallback(
+  const handleSignUp = useCallback(
     async (event) => {
       event.preventDefault();
       const { email, password } = event.target.elements;
+
       try {
         await app
           .auth()
-          .signInWithEmailAndPassword(email.value, password.value);
+          .createUserWithEmailAndPassword(email.value, password.value);
         history.push("/dashboard");
       } catch (error) {
         alert(error);
@@ -43,15 +44,13 @@ const Signin = ({ history }) => {
         <FormWrap>
           <Icon to='/'>DATO</Icon>
           <FormContent>
-            <Form action='#'>
+            <Form onSubmit={handleSignUp}>
               <FormH1>Sign in to your account</FormH1>
               <FormLabel htmlFor='for'>Email</FormLabel>
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required />
-              <FormButton type='submit' onClick={handleLogin}>
-                Continue
-              </FormButton>
+              <FormButton type='submit'>Continue</FormButton>
               <Text>Forgot Password?</Text>
             </Form>
           </FormContent>
@@ -62,3 +61,41 @@ const Signin = ({ history }) => {
 };
 
 export default withRouter(Signin);
+
+// const Signup = ({ history }) => {
+//   const handleSignUp = useCallback(
+//     async (event) => {
+//       event.preventDefault();
+//       const { email, password } = event.target.elements;
+
+//       try {
+//         await app
+//           .auth()
+//           .createUserWithEmailAndPassword(email.value, password.value);
+//         history.push("/dashboard");
+//       } catch (error) {
+//         alert(error);
+//       }
+//     },
+//     [history]
+//   );
+
+//   return (
+//     <div>
+//       <h1>signup</h1>
+//       <form onSubmit={handleSignUp}>
+//         <label>
+//           email
+//           <input type='email' name='email' placeholder='email' />
+//         </label>
+//         <label>
+//           password
+//           <input type='password' name='password' placeholder='password' />
+//         </label>
+//         <button type='submit'>sign up</button>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default withRouter(Signup);

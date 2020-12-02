@@ -1,3 +1,5 @@
+import img1 from "../../images/finance.svg";
+
 export const homeObjOne = {
   id: "about",
   lightBg: false,
