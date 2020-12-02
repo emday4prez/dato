@@ -73,11 +73,11 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              DATO
+              TCC
             </SocialLogo>
             <WebsiteRights>
               {" "}
-              DATO © {new Date().getFullYear()} All Rights Reserved.{" "}
+              BitCap & TCC © {new Date().getFullYear()} All Rights Reserved.{" "}
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink

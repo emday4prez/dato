@@ -19,14 +19,12 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>
-            We can help you reduce your fees and increase your overall revenue
-          </ServicesP>
+          <ServicesH2>Video Updates</ServicesH2>
+          <ServicesP>Private insight into crypto price & trends.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
+          <ServicesH2>Custom Charts</ServicesH2>
           <ServicesP>
             You can acess our platform when youre taking a shit
           </ServicesP>
@@ -34,9 +32,7 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Icon3} />
           <ServicesH2>Premium Benefits</ServicesH2>
-          <ServicesP>
-            Unlock our special membership promotion and get 5% cash back
-          </ServicesP>
+          <ServicesP>Unlock our special membership promotion.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

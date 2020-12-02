@@ -41,7 +41,7 @@ const Signin = ({ history }) => {
     <>
       <Container>
         <FormWrap>
-          <Icon to='/'>DATO</Icon>
+          <Icon to='/'>TCC</Icon>
           <FormContent>
             <Form action='#'>
               <FormH1>Sign in to your account</FormH1>

@@ -25,11 +25,8 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>This opportunity comes once in a generation.</HeroH1>
-        <HeroP>
-          Sign up for an account today and recieve a free personalized
-          constultation.
-        </HeroP>
+        <HeroH1>“An investment in knowledge pays the best dividends.”</HeroH1>
+        <HeroP>—Benjamin Franklin</HeroP>
         <HeroBtnWrapper>
           <Button
             to='signup'
